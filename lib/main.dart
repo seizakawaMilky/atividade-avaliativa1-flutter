@@ -23,12 +23,12 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.blue,
       ),
 
-      initialRoute: AppRoutes.Cadastro,
+      initialRoute: AppRoutes.cadastro,
 
       routes: {
-        AppRoutes.Cadastro: (_) => const CadastroScreen(),
-        AppRoutes.Login: (_) => const LoginScreen(),
-        AppRoutes.Home: (_) => const HomeScreen(),
+        AppRoutes.cadastro: (_) => const CadastroScreen(),
+        AppRoutes.login: (_) => const LoginScreen(),
+        AppRoutes.home: (_) => const HomeScreen(),
       },
     );
   }

@@ -25,8 +25,8 @@ class _CadastroScreenState extends State<CadastroScreen> {
 
     Navigator.pushReplacementNamed(
       context,
-      AppRoutes.Login,
-      arguments: usuario, // 👈 envia tudo
+      AppRoutes.login,
+      arguments: usuario,
     );
   }
 }
@@ -124,7 +124,7 @@ class _CadastroScreenState extends State<CadastroScreen> {
               TextButton(
                 onPressed: () {
                   Navigator.pushReplacementNamed(
-                      context, AppRoutes.Login);
+                      context, AppRoutes.login);
                 },
                 child: const Text('Já tenho conta'),
               ),

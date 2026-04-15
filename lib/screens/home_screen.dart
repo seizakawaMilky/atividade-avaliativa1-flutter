@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     return Card(
                       elevation: 3,
                       margin: const EdgeInsets.symmetric(vertical: 6),
-                      color: lido ? Colors.green[100] : null, // 🎨 fundo verde
+                      color: lido ? Colors.green[100] : null,
                       child: ListTile(
                         leading: Icon(
                           lido ? Icons.menu_book : Icons.book_outlined,

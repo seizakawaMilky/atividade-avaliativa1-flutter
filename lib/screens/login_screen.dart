@@ -27,7 +27,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
         Navigator.pushReplacementNamed(
           context,
-          AppRoutes.Home,
+          AppRoutes.home,
           arguments: usuario['nome'],
         );
       } else {
@@ -123,7 +123,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 onPressed: () {
                   Navigator.pushReplacementNamed(
                     context,
-                    AppRoutes.Cadastro,
+                    AppRoutes.cadastro,
                   );
                 },
                 child: const Text('Criar uma conta'),
